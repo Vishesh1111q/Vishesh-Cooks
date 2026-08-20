@@ -179,8 +179,9 @@ contactForm.addEventListener('submit', (e) => {
    const name = formData.get('name');
 
    // Show success message (in real implementation, this would send to a server)
-   alert(`Thank you ${name}! Your message has been sent. We will get back to you soon.`);
+   alert(`Thank you ${name}! Your message has been sent. I will get back to you soon.`);
 
    // Reset form
    contactForm.reset();
 });
+
